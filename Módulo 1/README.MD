@@ -523,13 +523,6 @@ La suma (11) es MAYOR que 10
 - **Condicionales** (`Si...Entonces...SiNo`)
 - **Ciclos** (`Para`)
 
-### 🎯 Habilidades desarrolladas:
-- Pensamiento algorítmico
-- Resolución de problemas paso a paso
-- Manejo de datos y variables
-- Lógica condicional
-- Estructuras de repetición
-
 ### 🚀 Próximo paso:
 En el **Módulo 2** aprenderemos a configurar el entorno de desarrollo y escribir nuestro primer programa en **lenguaje C**.
 

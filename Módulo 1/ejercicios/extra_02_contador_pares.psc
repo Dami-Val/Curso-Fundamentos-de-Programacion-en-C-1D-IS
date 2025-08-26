@@ -8,16 +8,16 @@ Algoritmo ContadorPares
     Escribir "¿Hasta qué número quieres contar los pares?"
     Leer limite
     
-    contador <- 0
+    contador = 0
     
     Escribir ""
     Escribir "Números pares del 1 al ", limite, ":"
     Escribir "================================"
     
-    Para i <- 1 Hasta limite Con Paso 1 Hacer
+    Para i = 1 Hasta limite Con Paso 1 Hacer
         Si i % 2 = 0 Entonces
             Escribir i, " es par"
-            contador <- contador + 1
+            contador = contador + 1
         FinSi
     FinPara
     

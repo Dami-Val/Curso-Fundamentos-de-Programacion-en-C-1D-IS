@@ -21,12 +21,12 @@ Algoritmo CalculadoraConComparador
     Leer num2
     
     // Realizar operaciones básicas
-    suma <- num1 + num2
-    resta <- num1 - num2
-    multiplicacion <- num1 * num2
-    division <- num1 / num2
-    potencia1 <- num1 ^ 2
-    potencia2 <- num2 ^ 2
+    suma = num1 + num2
+    resta = num1 - num2
+    multiplicacion = num1 * num2
+    division = num1 / num2
+    potencia1 = num1 ^ 2
+    potencia2 = num2 ^ 2
     
     // Mostrar resultados de operaciones
     Escribir ""
@@ -69,8 +69,8 @@ Algoritmo CalculadoraConComparador
     Escribir "📈 TABLA DEL ", num1, " (del 1 al 5):"
     Escribir "=========================="
     
-    Para i <- 1 Hasta 5 Con Paso 1 Hacer
-        resultado <- num1 * i
+    Para i = 1 Hasta 5 Con Paso 1 Hacer
+        resultado = num1 * i
         Escribir num1, " × ", i, " = ", resultado
     FinPara
     

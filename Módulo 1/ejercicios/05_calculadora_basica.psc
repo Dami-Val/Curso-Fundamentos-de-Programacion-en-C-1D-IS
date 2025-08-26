@@ -14,11 +14,11 @@ Algoritmo CalculadoraBasica
     Leer num2
     
     // Realizar operaciones
-    suma <- num1 + num2
-    resta <- num1 - num2
-    multiplicacion <- num1 * num2
-    division <- num1 / num2
-    potencia <- num1 ^ 2  // num1 al cuadrado
+    suma = num1 + num2
+    resta = num1 - num2
+    multiplicacion = num1 * num2
+    division = num1 / num2
+    potencia = num1 ^ 2  // num1 al cuadrado
     
     // Mostrar resultados
     Escribir ""

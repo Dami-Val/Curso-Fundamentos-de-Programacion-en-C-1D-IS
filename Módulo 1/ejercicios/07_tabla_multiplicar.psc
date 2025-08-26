@@ -13,7 +13,7 @@ Algoritmo TablaMultiplicar
     Escribir "===================="
     
     Para i <- 1 Hasta 10 Con Paso 1 Hacer
-        resultado <- numero * i
+        resultado = numero * i
         Escribir numero, " × ", i, " = ", resultado
     FinPara
     

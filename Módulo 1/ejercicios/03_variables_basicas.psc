@@ -9,10 +9,10 @@ Algoritmo VariablesBasicas
     Definir esMayorDeEdad Como Logico
     
     // Asignar valores
-    nombre <- "María González"
-    edad <- 20
-    altura <- 1.65
-    esMayorDeEdad <- Verdadero
+    nombre = "María González"
+    edad = 20
+    altura = 1.65
+    esMayorDeEdad = Verdadero
     
     // Mostrar valores
     Escribir "=== INFORMACIÓN PERSONAL ==="

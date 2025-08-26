@@ -2,7 +2,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&weight=700&duration=2000&pause=1000&color=37F740&width=435&lines=%F0%9F%93%9A+Club+de+Programaci%C3%B3n+en+C+%E2%9C%A8;%F0%9F%8E%AF+De+PSeInt+a+C+en+10+Semanas+%F0%9F%92%BB;%F0%9F%9A%80+Transici%C3%B3n+Progresiva+%F0%9F%94%A5;%F0%9F%8C%B1+Desde+L%C3%B3gica+a+Matrices+%F0%9F%93%88;%F0%9F%93+Complete+Programming+Journey+%E2%AD%90" alt="Typing SVG" /></a>
 </div>
 
-![C Programming Banner]()
+![C Programming Banner](https://github.com/Dami-Val/Curso-Fundamentos-de-Programacion-en-C-1D-IS/blob/main/main_banner.png)
 
 # <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="35" /> ¡Bienvenidos al Club de Programación!
 

@@ -6,22 +6,22 @@
     <img src="https://komarev.com/ghpvc/?username=Dami-Val&color=010409&style=plastic&label=Profile+views&logo=eye&labelColor=010409" alt="Profile views" />
 </div>
 
-![C Programming Banner](https://via.placeholder.com/1200x300/0d1117/37F740?text=Club+de+Programación+en+C+-+10+Semanas)
+![C Programming Banner](https://via.placeholder.com/1200x300/0d1117/37F740?text=Club+de+Programación+en+C+-+10+Módulos)
 
 # <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="35" /> ¡Bienvenidos al Club de Programación en C!
 
-Esta es la **documentación oficial completa** del Club de Programación en C 🎯✨ Un curso estructurado de **10 semanas** diseñado para estudiantes que quieren hacer la transición desde **PSeInt** hasta dominar **programación en C** con arrays y matrices.
+Esta es la **documentación oficial completa** del Club de Programación en C 🎯✨ Un curso estructurado de **10 módulos** diseñado para estudiantes que quieren hacer la transición desde **PSeInt** hasta dominar **programación en C** con arrays y matrices.
 
 **Descripción del Curso:**
 ```
-Curso completo de programación en C de 10 semanas. Transición desde PSeInt hasta matrices bidimensionales. Incluye lógica de programación, entorno Linux/CMD, estructuras de control, validaciones, arrays unidimensionales y bidimensionales. Documentación con ejemplos paso a paso y ejercicios integradores.
+Guía completa de C para principiantes que cubre fundamentos de programación: variables (entero, real, cadena), entrada/salida de datos, operaciones matemáticas, estructuras condicionales y ciclos. Incluye ejemplos prácticos paso a paso, ejercicios resueltos y un mini proyecto final para dominar la lógica de programación. (Incluye Intro a PSeInt)
 ```
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"> Estructura del Curso
 
-✨ **10 semanas de aprendizaje progresivo** desde fundamentos hasta programación avanzada
+✨ **10 módulos de aprendizaje progresivo** desde fundamentos hasta programación avanzada
 
-## 📅 Plan Completo del Club: [![Ver Documentación](https://img.shields.io/badge/-Ver%20Documentación%20Completa-010409?style=plastic&logo=gitbook&logoColor=37F740&labelColor=010409)](#plan-completo)
+## 📅 Acceso Directo a los Módulos:
 
 <div align="center">
 
@@ -31,22 +31,22 @@ Curso completo de programación en C de 10 semanas. Transición desde PSeInt has
   <tr>
     <td align="center">
       <img src="https://img.shields.io/badge/Fase%201-Fundamentos-37F740?style=for-the-badge&logo=bookmark&logoColor=white" alt="Fundamentos" />
-      <br><strong>Semanas 1-2</strong>
+      <br><strong>Módulos 1-2</strong>
       <br>PSeInt → C Básico
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/Fase%202-Control-blue?style=for-the-badge&logo=code&logoColor=white" alt="Control" />
-      <br><strong>Semanas 3-4</strong>
+      <br><strong>Módulos 3-4</strong>
       <br>Estructuras de Control
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/Fase%203-Práctica-orange?style=for-the-badge&logo=target&logoColor=white" alt="Práctica" />
-      <br><strong>Semanas 5-7</strong>
+      <br><strong>Módulos 5-7</strong>
       <br>Proyectos Integradores
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/Fase%204-Avanzado-red?style=for-the-badge&logo=cpu&logoColor=white" alt="Avanzado" />
-      <br><strong>Semanas 8-10</strong>
+      <br><strong>Módulos 8-10</strong>
       <br>Arrays y Matrices
     </td>
   </tr>
@@ -54,18 +54,18 @@ Curso completo de programación en C de 10 semanas. Transición desde PSeInt has
 
 </div>
 
-| 📅 Semana | 🎯 Tema Principal | 📋 Contenido Clave | 🖥️ Ejercicio Final |
-|-----------|------------------|-------------------|-------------------|
-| **1️⃣** | **PSeInt (Lógica base)** | Variables, operaciones, condicionales, ciclos | Calculadora con comparador |
-| **2️⃣** | **Entorno de trabajo** | Linux/CMD, GCC, primer programa en C | Calculadora básica en C |
-| **3️⃣** | **Estructuras de control** | if/else, for, while, do-while | Validador de números con tabla |
-| **4️⃣** | **Validaciones avanzadas** | Números negativos/positivos, caracteres | Clasificador completo |
-| **5️⃣** | **Actividad del maestro** | Reto integrador (if, for, operaciones) | Proyecto personalizado |
-| **6️⃣** | **Actividad del maestro** | Menú interactivo en equipos | Proyecto colaborativo |
-| **7️⃣** | **Repaso y refuerzo** | Consolidación de conceptos | Proyecto de repaso |
-| **8️⃣** | **Arrays unidimensionales** | Declaración, recorrido, operaciones | Calculadora de arrays |
-| **9️⃣** | **Matrices (Básico)** | Arrays 2D, suma de matrices | Sumador de matrices 3x3 |
-| **🔟** | **Matrices (Avanzado)** | Multiplicación de matrices | Multiplicador de matrices |
+| 📅 Módulo | 🎯 Tema Principal | 📋 Contenido Clave | 🖥️ Ejercicio Final | 🔗 Acceso Directo |
+|-----------|------------------|-------------------|-------------------|-------------------|
+| **1️⃣** | **PSeInt (Lógica base)** | Variables, operaciones, condicionales, ciclos | Calculadora con comparador | [![Módulo 1](https://img.shields.io/badge/-Ir%20al%20Módulo%201-37F740?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%201) |
+| **2️⃣** | **Entorno de trabajo** | Linux/CMD, GCC, primer programa en C | Calculadora básica en C | [![Módulo 2](https://img.shields.io/badge/-Ir%20al%20Módulo%202-blue?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%202) |
+| **3️⃣** | **Estructuras de control** | if/else, for, while, do-while | Validador de números con tabla | [![Módulo 3](https://img.shields.io/badge/-Ir%20al%20Módulo%203-orange?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%203) |
+| **4️⃣** | **Validaciones avanzadas** | Números negativos/positivos, caracteres | Clasificador completo | [![Módulo 4](https://img.shields.io/badge/-Ir%20al%20Módulo%204-purple?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%204) |
+| **5️⃣** | **Actividad del maestro** | Reto integrador (if, for, operaciones) | Proyecto personalizado | [![Módulo 5](https://img.shields.io/badge/-Ir%20al%20Módulo%205-red?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%205) |
+| **6️⃣** | **Actividad del maestro** | Menú interactivo en equipos | Proyecto colaborativo | [![Módulo 6](https://img.shields.io/badge/-Ir%20al%20Módulo%206-green?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%206) |
+| **7️⃣** | **Repaso y refuerzo** | Consolidación de conceptos | Proyecto de repaso | [![Módulo 7](https://img.shields.io/badge/-Ir%20al%20Módulo%207-yellow?style=plastic&logo=gitbook&logoColor=black&labelColor=010409)](./Módulo%207) |
+| **8️⃣** | **Arrays unidimensionales** | Declaración, recorrido, operaciones | Calculadora de arrays | [![Módulo 8](https://img.shields.io/badge/-Ir%20al%20Módulo%208-cyan?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%208) |
+| **9️⃣** | **Matrices (Básico)** | Arrays 2D, suma de matrices | Sumador de matrices 3x3 | [![Módulo 9](https://img.shields.io/badge/-Ir%20al%20Módulo%209-pink?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%209) |
+| **🔟** | **Matrices (Avanzado)** | Multiplicación de matrices | Multiplicador de matrices | [![Módulo 10](https://img.shields.io/badge/-Ir%20al%20Módulo%2010-brown?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%2010) |
 
 ### 🚀 **Tecnologías y Herramientas**
 
@@ -92,8 +92,8 @@ Curso completo de programación en C de 10 semanas. Transición desde PSeInt has
 <table>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/Semanas-10-37F740?style=for-the-badge&logo=calendar&logoColor=white" alt="Semanas" />
-      <br><strong>Duración Total</strong>
+      <img src="https://img.shields.io/badge/Módulos-10-37F740?style=for-the-badge&logo=calendar&logoColor=white" alt="Módulos" />
+      <br><strong>Total de Módulos</strong>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/Ejercicios-10+-blue?style=for-the-badge&logo=code&logoColor=white" alt="Ejercicios" />
@@ -127,63 +127,58 @@ Curso completo de programación en C de 10 semanas. Transición desde PSeInt has
 ✅ Trabajo en equipo (actividades colaborativas)
 ```
 
-## 📚 Plan Completo {#plan-completo}
+## 📚 Acceso Rápido por Fases
 
-### 🔹 **Semana 1 – PSeInt (Lógica base)**
-🎯 **Objetivo:** Entender la lógica de programación sin preocuparnos por sintaxis compleja
-- [![Documentación S1](https://img.shields.io/badge/-Ver%20Semana%201-010409?style=plastic&logo=gitbook&logoColor=37F740&labelColor=010409)](semana1-pseint.md)
+### 🌟 **Fase 1: Fundamentos (Módulos 1-2)**
+[![Módulo 1](https://img.shields.io/badge/Módulo%201-PSeInt%20(Lógica%20base)-37F740?style=for-the-badge&logo=code&logoColor=white)](./Módulo%201) [![Módulo 2](https://img.shields.io/badge/Módulo%202-Entorno%20de%20trabajo-blue?style=for-the-badge&logo=terminal&logoColor=white)](./Módulo%202)
 
-### 🔹 **Semana 2 – Entorno de trabajo (Linux y CMD)**
-🎯 **Objetivo:** Aprender terminal y primeros programas en C
-- [![Documentación S2](https://img.shields.io/badge/-Ver%20Semana%202-010409?style=plastic&logo=gitbook&logoColor=blue&labelColor=010409)](semana2-entorno.md)
+### 🎯 **Fase 2: Control (Módulos 3-4)**
+[![Módulo 3](https://img.shields.io/badge/Módulo%203-Estructuras%20de%20control-orange?style=for-the-badge&logo=flow&logoColor=white)](./Módulo%203) [![Módulo 4](https://img.shields.io/badge/Módulo%204-Validaciones%20avanzadas-purple?style=for-the-badge&logo=check&logoColor=white)](./Módulo%204)
 
-### 🔹 **Semana 3 – Estructuras de control**
-🎯 **Objetivo:** Dominar decisiones y repeticiones en C
-- [![Documentación S3](https://img.shields.io/badge/-Ver%20Semana%203-010409?style=plastic&logo=gitbook&logoColor=orange&labelColor=010409)](semana3-estructuras.md)
+### 🚀 **Fase 3: Práctica (Módulos 5-7)**
+[![Módulo 5](https://img.shields.io/badge/Módulo%205-Actividad%20del%20maestro-red?style=for-the-badge&logo=user&logoColor=white)](./Módulo%205) [![Módulo 6](https://img.shields.io/badge/Módulo%206-Proyecto%20colaborativo-green?style=for-the-badge&logo=users&logoColor=white)](./Módulo%206) [![Módulo 7](https://img.shields.io/badge/Módulo%207-Repaso%20y%20refuerzo-yellow?style=for-the-badge&logo=refresh&logoColor=black)](./Módulo%207)
 
-### 🔹 **Semana 4 – Condicionales y validaciones**
-🎯 **Objetivo:** Trabajar con diferentes tipos de datos y validaciones
-- [![Documentación S4](https://img.shields.io/badge/-Ver%20Semana%204-010409?style=plastic&logo=gitbook&logoColor=purple&labelColor=010409)](semana4-validaciones.md)
+### 🔥 **Fase 4: Avanzado (Módulos 8-10)**
+[![Módulo 8](https://img.shields.io/badge/Módulo%208-Arrays%20unidimensionales-cyan?style=for-the-badge&logo=array&logoColor=white)](./Módulo%208) [![Módulo 9](https://img.shields.io/badge/Módulo%209-Matrices%20(Básico)-pink?style=for-the-badge&logo=grid&logoColor=white)](./Módulo%209) [![Módulo 10](https://img.shields.io/badge/Módulo%2010-Matrices%20(Avanzado)-brown?style=for-the-badge&logo=cpu&logoColor=white)](./Módulo%2010)
 
-### 🔹 **Semanas 5-7 – Actividades del maestro y repaso**
-🎯 **Objetivo:** Proyectos integradores y consolidación
-- [![Proyectos](https://img.shields.io/badge/-Ver%20Proyectos-010409?style=plastic&logo=gitbook&logoColor=red&labelColor=010409)](semanas5-7-proyectos.md)
+## 🎮 Ejercicios Destacados por Módulo
 
-### 🔹 **Semana 8 – Arreglos unidimensionales**
-🎯 **Objetivo:** Entender arrays y operaciones básicas
-- [![Documentación S8](https://img.shields.io/badge/-Ver%20Semana%208-010409?style=plastic&logo=gitbook&logoColor=green&labelColor=010409)](semana8-arrays.md)
-
-### 🔹 **Semanas 9-10 – Arreglos bidimensionales (Matrices)**
-🎯 **Objetivo:** Trabajar con matrices y operaciones avanzadas
-- [![Documentación S9-10](https://img.shields.io/badge/-Ver%20Semanas%209--10-010409?style=plastic&logo=gitbook&logoColor=yellow&labelColor=010409)](semanas9-10-matrices.md)
-
-## 🎮 Ejercicios Destacados
-
-### **Semana 1:** Calculadora con Comparador (PSeInt)
-### **Semana 2:** Primera Calculadora en C
-### **Semana 3:** Validador de Números con Tabla de Multiplicar
-### **Semana 4:** Clasificador Completo (Números y Caracteres)
-### **Semana 8:** Calculadora de Arrays (Suma, Producto, Promedio)
-### **Semana 10:** Multiplicador de Matrices 3x3
+| Módulo | Ejercicio Final | Dificultad |
+|--------|----------------|------------|
+| **1** | Calculadora con Comparador (PSeInt) | 🟢 Básico |
+| **2** | Primera Calculadora en C | 🟡 Intermedio |
+| **3** | Validador de Números con Tabla | 🟡 Intermedio |
+| **4** | Clasificador Completo | 🟠 Avanzado |
+| **5-7** | Proyectos Integradores | 🟠 Avanzado |
+| **8** | Calculadora de Arrays | 🔴 Experto |
+| **9** | Sumador de Matrices 3x3 | 🔴 Experto |
+| **10** | Multiplicador de Matrices | 🔴 Experto |
 
 ##
 
 ### <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50"> **Cómo Seguir el Curso**
 
-1. 📖 **Sigue el plan semana por semana**
-2. 💻 **Practica todos los ejemplos**
+1. 📖 **Sigue los módulos en orden secuencial**
+2. 💻 **Practica todos los ejemplos de cada módulo**
 3. 🎯 **Completa los ejercicios finales**
-4. 🚀 **Participa en las actividades grupales**
+4. 🚀 **Participa en las actividades grupales (Módulos 5-6)**
 5. 🔄 **Repasa conceptos anteriores regularmente**
 
 ### 🎯 **Resultados Esperados**
-Al completar las 10 semanas, los estudiantes podrán:
+Al completar los 10 módulos, los estudiantes podrán:
 - ✅ Programar en C con confianza
 - ✅ Manejar estructuras de datos complejas
 - ✅ Resolver problemas con matrices
 - ✅ Desarrollar proyectos integradores
+- ✅ Trabajar en equipos de desarrollo
 
-📢 ¡Ideal para estudiantes de ingeniería, ciencias de la computación y entusiastas de la programación! 🤝📫
+### 📈 **Progresión Recomendada**
+```
+Módulo 1 → Módulo 2 → Módulo 3 → Módulo 4 → Módulo 5 → 
+Módulo 6 → Módulo 7 → Módulo 8 → Módulo 9 → Módulo 10
+```
+
+📢 ¡Ideal para estudiantes de Ingeniería en Sistemas, Ciencias de la Computación y entusiastas de la programación! 🤝📫
 
 [![GitHub](https://img.shields.io/badge/-GitHub-010409?style=plastic&logo=github&logoColor=white)](https://github.com/Dami-Val)  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0a66c2?style=plastic&logo=in&logoColor=white)](https://linkedin.com/in/damian-valencia)  [![Email](https://img.shields.io/badge/-Email-c4211f?style=plastic&logo=gmail&logoColor=white)](mailto:damival.32@gmail.com)  [![WhatsApp](https://img.shields.io/badge/-WhatsApp-36be49?style=plastic&logo=whatsapp&logoColor=white)](https://wa.me/523141741239)
 
@@ -192,5 +187,5 @@ Al completar las 10 semanas, los estudiantes podrán:
 <div align="center">
   <img src="https://img.shields.io/badge/Made%20with-❤️%20by%20Dami--Val-37F740?style=for-the-badge" alt="Made with love" />
   <br>
-  <img src="https://img.shields.io/badge/Club%20de%20Programación-2025-010409?style=plastic&logo=graduation-cap&logoColor=37F740" alt="Club 2025" />
+  <img src="https://img.shields.io/badge/Club%20de%20Programación%201D%20IS-2024-010409?style=plastic&logo=graduation-cap&logoColor=37F740" alt="Club 2024" />
 </div>

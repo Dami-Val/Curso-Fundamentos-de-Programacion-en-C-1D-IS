@@ -59,7 +59,11 @@ FinAlgoritmo
 - `FinAlgoritmo`: Termina el programa
 
 ### Ejercicio Práctico 1:
-Crear un programa que muestre tu nombre y edad:
+
+**Planteamiento del problema:**
+Crear un programa que muestre información personal básica: tu nombre, edad y que estás aprendiendo programación. El programa debe mostrar esta información de manera organizada en la pantalla.
+
+**Solución:**
 
 ```pseudocode
 Algoritmo MiPresentacion
@@ -68,6 +72,9 @@ Algoritmo MiPresentacion
     Escribir "Estoy aprendiendo programación"
 FinAlgoritmo
 ```
+
+**Explicación:**
+Este programa utiliza tres instrucciones `Escribir` consecutivas para mostrar información personal. Cada línea muestra un dato diferente, creando una presentación organizada. Es importante reemplazar `[Tu Nombre]` y `[Tu Edad]` con tus datos reales.
 
 ---
 
@@ -106,7 +113,11 @@ FinAlgoritmo
 ```
 
 ### Ejercicio Práctico 2:
-Crear un programa que declare variables para almacenar información de un estudiante:
+
+**Planteamiento del problema:**
+Desarrollar un programa que maneje información de un estudiante utilizando diferentes tipos de variables. El programa debe almacenar el nombre (texto), número de control (entero) y promedio (decimal) de un estudiante, y luego mostrar esta información de forma organizada.
+
+**Solución:**
 
 ```pseudocode
 Algoritmo DatosEstudiante
@@ -124,6 +135,9 @@ Algoritmo DatosEstudiante
     Escribir "Promedio: ", promedio
 FinAlgoritmo
 ```
+
+**Explicación:**
+Este programa demuestra el uso de los tres tipos de datos principales: `Cadena` para texto, `Entero` para números sin decimales y `Real` para números con decimales. Primero se declaran las variables, luego se les asignan valores y finalmente se muestran de forma organizada.
 
 ---
 
@@ -150,7 +164,11 @@ FinAlgoritmo
 ```
 
 ### Ejercicio Práctico 3:
-Programa que pida datos personales y los muestre organizados:
+
+**Planteamiento del problema:**
+Crear un programa interactivo que solicite al usuario sus datos personales (nombre, apellido, edad, estatura y ciudad) y luego muestre toda la información recopilada de manera organizada en un resumen.
+
+**Solución:**
 
 ```pseudocode
 Algoritmo RegistroPersona
@@ -182,6 +200,9 @@ Algoritmo RegistroPersona
     Escribir "Ciudad: ", ciudad
 FinAlgoritmo
 ```
+
+**Explicación:**
+Este programa demuestra la interacción con el usuario mediante `Leer`. Primero solicita cada dato individualmente, los almacena en variables apropiadas y luego los presenta en un formato organizado. Nota cómo se combinan variables de texto con el operador de concatenación (,).
 
 ---
 
@@ -231,7 +252,11 @@ FinAlgoritmo
 ```
 
 ### Ejercicio Práctico 4:
-Crear una calculadora de área y perímetro de un rectángulo:
+
+**Planteamiento del problema:**
+Desarrollar una calculadora que solicite las dimensiones de un rectángulo (base y altura) y calcule automáticamente su área y perímetro utilizando las fórmulas matemáticas correspondientes.
+
+**Solución:**
 
 ```pseudocode
 Algoritmo AreaPerimetroRectangulo
@@ -256,6 +281,9 @@ Algoritmo AreaPerimetroRectangulo
     Escribir "Perímetro: ", perimetro
 FinAlgoritmo
 ```
+
+**Explicación:**
+Este programa combina entrada de datos, operaciones matemáticas y salida de resultados. Utiliza las fórmulas: Área = base × altura y Perímetro = 2 × (base + altura). Los comentarios ayudan a documentar las operaciones realizadas.
 
 ---
 
@@ -303,7 +331,11 @@ FinAlgoritmo
 ```
 
 ### Ejercicio Práctico 5:
-Programa que evalúe una calificación:
+
+**Planteamiento del problema:**
+Crear un programa que evalúe el rendimiento académico de un estudiante. El programa debe solicitar una calificación (0-10) y determinar si el estudiante aprobó o reprobó. Además, debe reconocer las calificaciones excelentes (9 o más).
+
+**Solución:**
 
 ```pseudocode
 Algoritmo EvaluarCalificacion
@@ -323,6 +355,9 @@ Algoritmo EvaluarCalificacion
     FinSi
 FinAlgoritmo
 ```
+
+**Explicación:**
+Este programa demuestra el uso de estructuras condicionales. La primera condición evalúa si la calificación es suficiente para aprobar (≥7). La segunda condición es independiente y verifica si merece reconocimiento especial (≥9). Nota que ambas condiciones pueden ejecutarse si la calificación es 9 o más.
 
 ---
 
@@ -374,7 +409,11 @@ FinAlgoritmo
 ```
 
 ### Ejercicio Práctico 6:
-Programa que sume los números del 1 al 10:
+
+**Planteamiento del problema:**
+Desarrollar un programa que calcule la suma de todos los números enteros del 1 al 10 utilizando un ciclo. El programa debe mostrar el proceso paso a paso y el resultado final.
+
+**Solución:**
 
 ```pseudocode
 Algoritmo SumarUnoAlDiez
@@ -392,17 +431,25 @@ Algoritmo SumarUnoAlDiez
 FinAlgoritmo
 ```
 
+**Explicación:**
+Este programa utiliza un ciclo `Para` para iterar del 1 al 10. En cada iteración, suma el número actual (`i`) al acumulador (`suma`) y muestra el progreso. Es un ejemplo clásico de uso de acumuladores en programación. El resultado final es 55 (1+2+3+4+5+6+7+8+9+10).
+
 ---
 
 ## Ejercicio Final del Módulo
 
 ### **Calculadora con Comparador**
 
-Crear un programa que:
+**Planteamiento del problema:**
+Desarrollar un programa integral que combine todos los conceptos aprendidos: entrada de datos, operaciones matemáticas, condicionales y ciclos. El programa debe solicitar dos números al usuario, realizar operaciones básicas, comparar resultados y generar una tabla de multiplicar.
+
+**Objetivos específicos:**
 1. Pida dos números al usuario
 2. Muestre todas las operaciones básicas (suma, resta, multiplicación, división, potencia al cuadrado)
 3. Compare si la suma es mayor, menor o igual a 10
 4. Muestre una tabla de multiplicar del primer número (del 1 al 5)
+
+**Solución:**
 
 ```pseudocode
 Algoritmo CalculadoraConComparador
@@ -476,6 +523,9 @@ Algoritmo CalculadoraConComparador
 FinAlgoritmo
 ```
 
+**Explicación:**
+Este programa integra todos los conceptos del módulo: variables de diferentes tipos, entrada de datos con `Leer`, operaciones matemáticas, condicionales anidadas (`Si...SiNo`) y ciclos (`Para`). Demuestra el manejo de errores básico (división por cero) y la organización del código con comentarios descriptivos.
+
 ### Ejemplo de Ejecución:
 
 ```
@@ -538,6 +588,12 @@ En el **Módulo 2** aprenderemos a configurar el entorno de desarrollo y escribi
 ## Ejercicios Adicionales para Practicar
 
 ### Ejercicio Extra 1: Calculadora de IMC
+
+**Planteamiento del problema:**
+Crear una calculadora de Índice de Masa Corporal (IMC) que solicite el peso y la estatura del usuario, calcule el IMC usando la fórmula IMC = peso/(estatura²) y determine la categoría correspondiente según los rangos médicos estándar.
+
+**Solución:**
+
 ```pseudocode
 Algoritmo CalculadoraIMC
     Definir peso, estatura, imc Como Real
@@ -569,7 +625,15 @@ Algoritmo CalculadoraIMC
 FinAlgoritmo
 ```
 
+**Explicación:**
+Este programa utiliza condicionales anidadas (`Si...SiNo`) para clasificar el IMC en diferentes categorías. La fórmula matemática usa la operación de potencia (^2) y las condiciones evalúan rangos numéricos específicos para determinar el estado de salud según estándares médicos.
+
 ### Ejercicio Extra 2: Contador de Números Pares
+
+**Planteamiento del problema:**
+Desarrollar un programa que identifique y cuente todos los números pares en un rango del 1 al 20. El programa debe mostrar cada número par encontrado y llevar un contador del total de números pares.
+
+**Solución:**
 ```pseudocode
 Algoritmo ContadorPares
     Definir i, contador Como Entero
@@ -588,6 +652,9 @@ Algoritmo ContadorPares
     Escribir "Total de números pares: ", contador
 FinAlgoritmo
 ```
+
+**Explicación:**
+Este programa combina ciclos (`Para`) con condicionales (`Si`) y utiliza el operador módulo (%) para determinar si un número es par. Un número es par cuando el residuo de dividirlo entre 2 es cero. El contador acumula la cantidad total de números pares encontrados.
 
 ---
 

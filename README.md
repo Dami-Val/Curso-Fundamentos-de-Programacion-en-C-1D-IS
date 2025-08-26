@@ -123,20 +123,6 @@ Guía completa de C para principiantes que cubre fundamentos de programación: v
 ✅ Trabajo en equipo (actividades colaborativas)
 ```
 
-## 📚 Acceso Rápido por Fases
-
-### 🌟 **Fase 1: Fundamentos (Módulos 1-2)**
-[![Módulo 1](https://img.shields.io/badge/Módulo%201-PSeInt%20(Lógica%20base)-37F740?style=for-the-badge&logo=code&logoColor=white)](./Módulo%201) [![Módulo 2](https://img.shields.io/badge/Módulo%202-Entorno%20de%20trabajo-blue?style=for-the-badge&logo=terminal&logoColor=white)](./Módulo%202)
-
-### 🎯 **Fase 2: Control (Módulos 3-4)**
-[![Módulo 3](https://img.shields.io/badge/Módulo%203-Estructuras%20de%20control-orange?style=for-the-badge&logo=flow&logoColor=white)](./Módulo%203) [![Módulo 4](https://img.shields.io/badge/Módulo%204-Validaciones%20avanzadas-purple?style=for-the-badge&logo=check&logoColor=white)](./Módulo%204)
-
-### 🚀 **Fase 3: Práctica (Módulos 5-7)**
-[![Módulo 5](https://img.shields.io/badge/Módulo%205-Actividad%20del%20maestro-red?style=for-the-badge&logo=user&logoColor=white)](./Módulo%205) [![Módulo 6](https://img.shields.io/badge/Módulo%206-Proyecto%20colaborativo-green?style=for-the-badge&logo=users&logoColor=white)](./Módulo%206) [![Módulo 7](https://img.shields.io/badge/Módulo%207-Repaso%20y%20refuerzo-yellow?style=for-the-badge&logo=refresh&logoColor=black)](./Módulo%207)
-
-### 🔥 **Fase 4: Avanzado (Módulos 8-10)**
-[![Módulo 8](https://img.shields.io/badge/Módulo%208-Arrays%20unidimensionales-cyan?style=for-the-badge&logo=array&logoColor=white)](./Módulo%208) [![Módulo 9](https://img.shields.io/badge/Módulo%209-Matrices%20(Básico)-pink?style=for-the-badge&logo=grid&logoColor=white)](./Módulo%209) [![Módulo 10](https://img.shields.io/badge/Módulo%2010-Matrices%20(Avanzado)-brown?style=for-the-badge&logo=cpu&logoColor=white)](./Módulo%2010)
-
 ## 🎮 Ejercicios Destacados por Módulo
 
 | Módulo | Ejercicio Final | Dificultad |
@@ -174,7 +160,7 @@ Módulo 1 → Módulo 2 → Módulo 3 → Módulo 4 → Módulo 5 →
 Módulo 6 → Módulo 7 → Módulo 8 → Módulo 9 → Módulo 10
 ```
 
-📢 ¡Ideal para estudiantes de Ingeniería en Sistemas, Ciencias de la Computación y entusiastas de la programación! 🤝📫
+📢 ¡Contáctos! 🤝📫
 
 [![GitHub](https://img.shields.io/badge/-GitHub-010409?style=plastic&logo=github&logoColor=white)](https://github.com/Dami-Val)  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0a66c2?style=plastic&logo=in&logoColor=white)](https://linkedin.com/in/damian-valencia)  [![Email](https://img.shields.io/badge/-Email-c4211f?style=plastic&logo=gmail&logoColor=white)](mailto:damival.32@gmail.com)  [![WhatsApp](https://img.shields.io/badge/-WhatsApp-36be49?style=plastic&logo=whatsapp&logoColor=white)](https://wa.me/523141741239)
 
@@ -183,5 +169,5 @@ Módulo 6 → Módulo 7 → Módulo 8 → Módulo 9 → Módulo 10
 <div align="center">
   <img src="https://img.shields.io/badge/Made%20with-❤️%20by%20Dami--Val-37F740?style=for-the-badge" alt="Made with love" />
   <br>
-  <img src="https://img.shields.io/badge/Club%20de%20Programación%201D%20IS-2024-010409?style=plastic&logo=graduation-cap&logoColor=37F740" alt="Club 2024" />
+  <img src="https://img.shields.io/badge/Club%20de%20Programación%201D%20IS-2024-010409?style=plastic&logo=graduation-cap&logoColor=37F740" alt="Club 2025" />
 </div>

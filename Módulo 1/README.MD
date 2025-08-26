@@ -1,4 +1,4 @@
-# 📚 Módulo 1: PSeInt - Fundamentos de Lógica de Programación
+# Módulo 1: PSeInt - Fundamentos de Lógica de Programación
 
 <div align="center">
   <img src="https://img.shields.io/badge/Semana%201-PSeInt%20(Lógica%20base)-37F740?style=for-the-badge&logo=code&logoColor=white" alt="Módulo 1" />
@@ -8,21 +8,21 @@
   <img src="https://img.shields.io/badge/Ejercicios-6+-orange?style=plastic&logo=code&logoColor=white" alt="Ejercicios" />
 </div>
 
-## 🎯 Objetivo del Módulo
+## Objetivo del Módulo
 
 Entender la **lógica de programación** sin preocuparnos aún por la sintaxis complicada. PSeInt nos permite concentrarnos en el **pensamiento algorítmico** y la **resolución de problemas** de manera visual e intuitiva.
 
-## 📋 Contenido del Módulo
+## Contenido del Módulo
 
-### 🔹 Temas Principales:
-- ✅ **Escribir** (imprimir en pantalla)
-- ✅ **Variables** (entero, real, cadena)
-- ✅ **Leer** (escanear datos del usuario)
-- ✅ **Operaciones matemáticas**: suma, resta, multiplicación, división, potencia al cuadrado
-- ✅ **Condicionales**: Si ... Entonces
-- ✅ **Ciclos**: Para
+### Temas Principales:
+- **Escribir** (imprimir en pantalla)
+- **Variables** (entero, real, cadena)
+- **Leer** (escanear datos del usuario)
+- **Operaciones matemáticas**: suma, resta, multiplicación, división, potencia al cuadrado
+- **Condicionales**: Si ... Entonces
+- **Ciclos**: Para
 
-### 🚀 Lo que aprenderás:
+### Lo que aprenderás:
 - Cómo estructurar un algoritmo
 - Manejo básico de variables y tipos de datos
 - Interacción con el usuario (entrada y salida)
@@ -31,7 +31,7 @@ Entender la **lógica de programación** sin preocuparnos aún por la sintaxis c
 
 ---
 
-## 📖 Lección 1: Introducción a PSeInt
+## Lección 1: Introducción a PSeInt
 
 ### ¿Qué es PSeInt?
 **PSeInt** (PSeudo Intérprete) es una herramienta educativa para aprender los **fundamentos de la programación** mediante pseudocódigo. Nos permite escribir algoritmos en español de manera sencilla y visual.
@@ -43,7 +43,7 @@ Entender la **lógica de programación** sin preocuparnos aún por la sintaxis c
 
 ---
 
-## 📖 Lección 2: Tu Primer Programa - "Hola Mundo"
+## Lección 2: Tu Primer Programa - "Hola Mundo"
 
 ### Estructura Básica de un Algoritmo
 
@@ -53,12 +53,12 @@ Algoritmo HolaMundo
 FinAlgoritmo
 ```
 
-### 🔍 Explicación:
+### Explicación:
 - `Algoritmo NombreDelAlgoritmo`: Inicia el programa
 - `Escribir "texto"`: Muestra texto en pantalla
 - `FinAlgoritmo`: Termina el programa
 
-### 💡 Ejercicio Práctico 1:
+### Ejercicio Práctico 1:
 Crear un programa que muestre tu nombre y edad:
 
 ```pseudocode
@@ -71,7 +71,7 @@ FinAlgoritmo
 
 ---
 
-## 📖 Lección 3: Variables y Tipos de Datos
+## Lección 3: Variables y Tipos de Datos
 
 ### ¿Qué son las Variables?
 Las **variables** son "cajas" donde guardamos información que puede cambiar durante la ejecución del programa.
@@ -94,9 +94,9 @@ Algoritmo VariablesBasicas
     Definir altura Como Real
     
     // Asignar valores
-    nombre <- "María"
-    edad <- 20
-    altura <- 1.65
+    nombre = "María"
+    edad = 20
+    altura = 1.65
     
     // Mostrar valores
     Escribir "Nombre: ", nombre
@@ -105,7 +105,7 @@ Algoritmo VariablesBasicas
 FinAlgoritmo
 ```
 
-### 💡 Ejercicio Práctico 2:
+### Ejercicio Práctico 2:
 Crear un programa que declare variables para almacenar información de un estudiante:
 
 ```pseudocode
@@ -114,9 +114,9 @@ Algoritmo DatosEstudiante
     Definir numeroControl Como Entero
     Definir promedio Como Real
     
-    nombreEstudiante <- "Ana González"
-    numeroControl <- 12345
-    promedio <- 9.5
+    nombreEstudiante = "Ana González"
+    numeroControl = 12345
+    promedio = 9.5
     
     Escribir "=== DATOS DEL ESTUDIANTE ==="
     Escribir "Nombre: ", nombreEstudiante
@@ -127,7 +127,7 @@ FinAlgoritmo
 
 ---
 
-## 📖 Lección 4: Entrada de Datos - Leer
+## Lección 4: Entrada de Datos - Leer
 
 ### Interacción con el Usuario
 Para que nuestros programas sean dinámicos, necesitamos **leer datos** que ingrese el usuario.
@@ -149,7 +149,7 @@ Algoritmo LeerDatos
 FinAlgoritmo
 ```
 
-### 💡 Ejercicio Práctico 3:
+### Ejercicio Práctico 3:
 Programa que pida datos personales y los muestre organizados:
 
 ```pseudocode
@@ -185,7 +185,7 @@ FinAlgoritmo
 
 ---
 
-## 📖 Lección 5: Operaciones Matemáticas
+## Lección 5: Operaciones Matemáticas
 
 ### Operadores Básicos en PSeInt
 
@@ -213,11 +213,11 @@ Algoritmo CalculadoraBasica
     Leer num2
     
     // Realizar operaciones
-    suma <- num1 + num2
-    resta <- num1 - num2
-    multiplicacion <- num1 * num2
-    division <- num1 / num2
-    potencia <- num1 ^ 2  // num1 al cuadrado
+    suma = num1 + num2
+    resta = num1 - num2
+    multiplicacion = num1 * num2
+    division = num1 / num2
+    potencia = num1 ^ 2  // num1 al cuadrado
     
     // Mostrar resultados
     Escribir ""
@@ -230,7 +230,7 @@ Algoritmo CalculadoraBasica
 FinAlgoritmo
 ```
 
-### 💡 Ejercicio Práctico 4:
+### Ejercicio Práctico 4:
 Crear una calculadora de área y perímetro de un rectángulo:
 
 ```pseudocode
@@ -245,8 +245,8 @@ Algoritmo AreaPerimetroRectangulo
     Leer altura
     
     // Calcular área y perímetro
-    area <- base * altura
-    perimetro <- 2 * (base + altura)
+    area = base * altura
+    perimetro = 2 * (base + altura)
     
     Escribir ""
     Escribir "=== RESULTADOS ==="
@@ -259,7 +259,7 @@ FinAlgoritmo
 
 ---
 
-## 📖 Lección 6: Estructuras Condicionales - Si...Entonces
+## Lección 6: Estructuras Condicionales - Si...Entonces
 
 ### ¿Qué son las Condicionales?
 Las **condicionales** nos permiten que el programa tome **decisiones** basadas en condiciones específicas.
@@ -302,7 +302,7 @@ Algoritmo MayorDeEdad
 FinAlgoritmo
 ```
 
-### 💡 Ejercicio Práctico 5:
+### Ejercicio Práctico 5:
 Programa que evalúe una calificación:
 
 ```pseudocode
@@ -326,7 +326,7 @@ FinAlgoritmo
 
 ---
 
-## 📖 Lección 7: Ciclos - Para
+## Lección 7: Ciclos - Para
 
 ### ¿Qué son los Ciclos?
 Los **ciclos** nos permiten **repetir** un bloque de código varias veces de manera automática.
@@ -334,7 +334,7 @@ Los **ciclos** nos permiten **repetir** un bloque de código varias veces de man
 ### Sintaxis del Ciclo Para
 
 ```pseudocode
-Para variable <- valor_inicial Hasta valor_final Con Paso paso Hacer
+Para variable = valor_inicial Hasta valor_final Con Paso paso Hacer
     // Código que se repite
 FinPara
 ```
@@ -347,7 +347,7 @@ Algoritmo ContarUnoAlCinco
     
     Escribir "Contando del 1 al 5:"
     
-    Para i <- 1 Hasta 5 Con Paso 1 Hacer
+    Para i = 1 Hasta 5 Con Paso 1 Hacer
         Escribir "Número: ", i
     FinPara
     
@@ -366,24 +366,24 @@ Algoritmo TablaMultiplicar
     
     Escribir "Tabla del ", numero, ":"
     
-    Para i <- 1 Hasta 10 Con Paso 1 Hacer
-        resultado <- numero * i
+    Para i = 1 Hasta 10 Con Paso 1 Hacer
+        resultado = numero * i
         Escribir numero, " x ", i, " = ", resultado
     FinPara
 FinAlgoritmo
 ```
 
-### 💡 Ejercicio Práctico 6:
+### Ejercicio Práctico 6:
 Programa que sume los números del 1 al 10:
 
 ```pseudocode
 Algoritmo SumarUnoAlDiez
     Definir i, suma Como Entero
     
-    suma <- 0
+    suma = 0
     
-    Para i <- 1 Hasta 10 Con Paso 1 Hacer
-        suma <- suma + i
+    Para i = 1 Hasta 10 Con Paso 1 Hacer
+        suma = suma + i
         Escribir "Sumando ", i, " - Total: ", suma
     FinPara
     
@@ -394,9 +394,9 @@ FinAlgoritmo
 
 ---
 
-## 🖥️ Ejercicio Final del Módulo
+## Ejercicio Final del Módulo
 
-### 🎯 **Calculadora con Comparador**
+### **Calculadora con Comparador**
 
 Crear un programa que:
 1. Pida dos números al usuario
@@ -412,7 +412,7 @@ Algoritmo CalculadoraConComparador
     Definir i, resultado Como Entero
     
     // Solicitar datos
-    Escribir "🔢 CALCULADORA CON COMPARADOR 🔢"
+    Escribir "CALCULADORA CON COMPARADOR"
     Escribir "=================================="
     Escribir ""
     Escribir "Ingresa el primer número:"
@@ -422,16 +422,16 @@ Algoritmo CalculadoraConComparador
     Leer num2
     
     // Realizar operaciones básicas
-    suma <- num1 + num2
-    resta <- num1 - num2
-    multiplicacion <- num1 * num2
-    division <- num1 / num2
-    potencia1 <- num1 ^ 2
-    potencia2 <- num2 ^ 2
+    suma = num1 + num2
+    resta = num1 - num2
+    multiplicacion = num1 * num2
+    division = num1 / num2
+    potencia1 = num1 ^ 2
+    potencia2 = num2 ^ 2
     
     // Mostrar resultados
     Escribir ""
-    Escribir "📊 OPERACIONES BÁSICAS:"
+    Escribir "OPERACIONES BÁSICAS:"
     Escribir "======================="
     Escribir num1, " + ", num2, " = ", suma
     Escribir num1, " - ", num2, " = ", resta
@@ -448,7 +448,7 @@ Algoritmo CalculadoraConComparador
     
     // Comparar la suma con 10
     Escribir ""
-    Escribir "🔍 COMPARACIÓN CON 10:"
+    Escribir "COMPARACIÓN CON 10:"
     Escribir "====================="
     
     Si suma > 10 Entonces
@@ -463,23 +463,23 @@ Algoritmo CalculadoraConComparador
     
     // Mostrar tabla de multiplicar del primer número
     Escribir ""
-    Escribir "📈 TABLA DEL ", num1, " (del 1 al 5):"
+    Escribir "TABLA DEL ", num1, " (del 1 al 5):"
     Escribir "=========================="
     
-    Para i <- 1 Hasta 5 Con Paso 1 Hacer
-        resultado <- num1 * i
+    Para i = 1 Hasta 5 Con Paso 1 Hacer
+        resultado = num1 * i
         Escribir num1, " × ", i, " = ", resultado
     FinPara
     
     Escribir ""
-    Escribir "¡Programa completado exitosamente! 🎉"
+    Escribir "¡Programa completado exitosamente!"
 FinAlgoritmo
 ```
 
-### 🎮 Ejemplo de Ejecución:
+### Ejemplo de Ejecución:
 
 ```
-🔢 CALCULADORA CON COMPARADOR 🔢
+CALCULADORA CON COMPARADOR
 ==================================
 
 Ingresa el primer número:
@@ -487,7 +487,7 @@ Ingresa el primer número:
 Ingresa el segundo número:
 4
 
-📊 OPERACIONES BÁSICAS:
+OPERACIONES BÁSICAS:
 =======================
 7 + 4 = 11
 7 - 4 = 3
@@ -496,11 +496,11 @@ Ingresa el segundo número:
 7² = 49
 4² = 16
 
-🔍 COMPARACIÓN CON 10:
+COMPARACIÓN CON 10:
 =====================
 La suma (11) es MAYOR que 10
 
-📈 TABLA DEL 7 (del 1 al 5):
+TABLA DEL 7 (del 1 al 5):
 ==========================
 7 × 1 = 7
 7 × 2 = 14
@@ -508,14 +508,14 @@ La suma (11) es MAYOR que 10
 7 × 4 = 28
 7 × 5 = 35
 
-¡Programa completado exitosamente! 🎉
+¡Programa completado exitosamente!
 ```
 
 ---
 
-## 📚 Resumen del Módulo
+## Resumen del Módulo
 
-### ✅ Lo que aprendiste:
+### Lo que aprendiste:
 - **Estructura básica** de un algoritmo en PSeInt
 - **Variables** y tipos de datos (entero, real, cadena)
 - **Entrada y salida** de datos (`Leer` y `Escribir`)
@@ -523,19 +523,19 @@ La suma (11) es MAYOR que 10
 - **Condicionales** (`Si...Entonces...SiNo`)
 - **Ciclos** (`Para`)
 
-### 🎯 Habilidades desarrolladas:
+### Habilidades desarrolladas:
 - Pensamiento algorítmico
 - Resolución de problemas paso a paso
 - Manejo de datos y variables
 - Lógica condicional
 - Estructuras de repetición
 
-### 🚀 Próximo paso:
+### Próximo paso:
 En el **Módulo 2** aprenderemos a configurar el entorno de desarrollo y escribir nuestro primer programa en **lenguaje C**.
 
 ---
 
-## 📝 Ejercicios Adicionales para Practicar
+## Ejercicios Adicionales para Practicar
 
 ### Ejercicio Extra 1: Calculadora de IMC
 ```pseudocode
@@ -549,7 +549,7 @@ Algoritmo CalculadoraIMC
     Escribir "Ingresa tu estatura en metros:"
     Leer estatura
     
-    imc <- peso / (estatura ^ 2)
+    imc = peso / (estatura ^ 2)
     
     Escribir "Tu IMC es: ", imc
     
@@ -574,14 +574,14 @@ FinAlgoritmo
 Algoritmo ContadorPares
     Definir i, contador Como Entero
     
-    contador <- 0
+    contador = 0
     
     Escribir "Números pares del 1 al 20:"
     
-    Para i <- 1 Hasta 20 Con Paso 1 Hacer
+    Para i = 1 Hasta 20 Con Paso 1 Hacer
         Si i % 2 = 0 Entonces
             Escribir i
-            contador <- contador + 1
+            contador = contador + 1
         FinSi
     FinPara
     

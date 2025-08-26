@@ -38,4 +38,31 @@ Pedir 2 calificaciones, calcular el promedio y decir si aprobó (promedio >= 6) 
 
 
 
+## Reto FINAL! Calculadora de Notas Simple
+
+Crear un programa que solicite dos números al usuario, realice las 6 operaciones básicas (suma, resta, multiplicación y división) y compare si la suma es mayor, menor o igual a 10.
+
+## Ejemplo de salida:
+
+```pseudocode
+Ingresa el primer número:
+7
+Ingresa el segundo número:
+4
+
+OPERACIONES BÁSICAS:
+=======================
+Suma: 7 + 4 = 11
+Resta: 7 - 4 = 3
+Multiplicación: 7 × 4 = 28
+División: 7 ÷ 4 = 1.75
+
+COMPARACIÓN CON 10:
+=====================
+La suma de los números es: 11
+La suma (11) es MAYOR que 10
+
+PROGRAMA COMPLETADO EXITOSAMENTE!
+```
+
 

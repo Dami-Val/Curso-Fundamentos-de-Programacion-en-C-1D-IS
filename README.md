@@ -1,21 +1,17 @@
 <div align="right">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&weight=700&duration=2000&pause=1000&color=37F740&width=435&lines=%F0%9F%93%9A+Club+de+Programaci%C3%B3n+en+C+%E2%9C%A8;%F0%9F%8E%AF+De+PSeInt+a+C+en+10+Semanas+%F0%9F%92%BB;%F0%9F%9A%80+Transici%C3%B3n+Progresiva+%F0%9F%94%A5;%F0%9F%8C%B1+Desde+L%C3%B3gica+a+Matrices+%F0%9F%93%88;%F0%9F%93+Complete+Programming+Journey+%E2%AD%90" alt="Typing SVG" /></a>
-<a href="https://github.com/Dami-Val">
-    <img src="https://img.shields.io/github/followers/Dami-Val?style=plastic&logo=github&label=Followers&color=010409&labelColor=010409" alt="GitHub followers" />
-    </a> 
-    <img src="https://komarev.com/ghpvc/?username=Dami-Val&color=010409&style=plastic&label=Profile+views&logo=eye&labelColor=010409" alt="Profile views" />
 </div>
 
-![C Programming Banner](https://via.placeholder.com/1200x300/0d1117/37F740?text=Club+de+Programación+en+C+-+10+Módulos)
+![C Programming Banner](https://github.com/Dami-Val/Curso-Fundamentos-de-Programacion-en-C-1D-IS/blob/main/main_banner.png)
 
-# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="35" /> ¡Bienvenidos al Club de Programación en C!
+# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="35" /> ¡Bienvenidos al Club de Programación!
 
-Esta es la **documentación oficial completa** del Club de Programación en C 🎯✨ Un curso estructurado de **10 módulos** diseñado para estudiantes que quieren hacer la transición desde **PSeInt** hasta dominar **programación en C** con arrays y matrices.
+Esta es la **documentación oficial completa** del **Curso de Fundamentos de Programación en C**. 🎯✨ Un curso estructurado de **10 módulos** diseñado para estudiantes que quieren hacer la transición desde **PSeInt** hasta dominar **programación en C** con arrays y matrices.
 
 **Descripción del Curso:**
-```
+
 Guía completa de C para principiantes que cubre fundamentos de programación: variables (entero, real, cadena), entrada/salida de datos, operaciones matemáticas, estructuras condicionales y ciclos. Incluye ejemplos prácticos paso a paso, ejercicios resueltos y un mini proyecto final para dominar la lógica de programación. (Incluye Intro a PSeInt)
-```
+
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"> Estructura del Curso
 
@@ -62,7 +58,7 @@ Guía completa de C para principiantes que cubre fundamentos de programación: v
 | **4️⃣** | **Validaciones avanzadas** | Números negativos/positivos, caracteres | Clasificador completo | [![Módulo 4](https://img.shields.io/badge/-Ir%20al%20Módulo%204-purple?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%204) |
 | **5️⃣** | **Actividad del maestro** | Reto integrador (if, for, operaciones) | Proyecto personalizado | [![Módulo 5](https://img.shields.io/badge/-Ir%20al%20Módulo%205-red?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%205) |
 | **6️⃣** | **Actividad del maestro** | Menú interactivo en equipos | Proyecto colaborativo | [![Módulo 6](https://img.shields.io/badge/-Ir%20al%20Módulo%206-green?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%206) |
-| **7️⃣** | **Repaso y refuerzo** | Consolidación de conceptos | Proyecto de repaso | [![Módulo 7](https://img.shields.io/badge/-Ir%20al%20Módulo%207-yellow?style=plastic&logo=gitbook&logoColor=black&labelColor=010409)](./Módulo%207) |
+| **7️⃣** | **Repaso y refuerzo** | Consolidación de conceptos | Proyecto de repaso | [![Módulo 7](https://img.shields.io/badge/-Ir%20al%20Módulo%207-yellow?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%207) |
 | **8️⃣** | **Arrays unidimensionales** | Declaración, recorrido, operaciones | Calculadora de arrays | [![Módulo 8](https://img.shields.io/badge/-Ir%20al%20Módulo%208-cyan?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%208) |
 | **9️⃣** | **Matrices (Básico)** | Arrays 2D, suma de matrices | Sumador de matrices 3x3 | [![Módulo 9](https://img.shields.io/badge/-Ir%20al%20Módulo%209-pink?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%209) |
 | **🔟** | **Matrices (Avanzado)** | Multiplicación de matrices | Multiplicador de matrices | [![Módulo 10](https://img.shields.io/badge/-Ir%20al%20Módulo%2010-brown?style=plastic&logo=gitbook&logoColor=white&labelColor=010409)](./Módulo%2010) |

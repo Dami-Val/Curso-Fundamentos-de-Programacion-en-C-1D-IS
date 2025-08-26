@@ -4,9 +4,14 @@
 
 ### Planteamiento del problema:
 
-Crear un programa que pida tu nombre, edad y cuántos años tendrás en 5 años.
+Crear un programa que pida tu nombre, edad y calcule cuántos años tendrás en 5 años.
 
-### Solución:
+
+## Ejemplo de salida:
+"Hola [nombre]"
+"Tienes 18 años"
+"En 5 años tendrás 23 años"
+
 
 ?
 
@@ -15,9 +20,18 @@ Crear un programa que pida tu nombre, edad y cuántos años tendrás en 5 años.
 
 ### Planteamiento del problema:
 
-Pedir 2 calificaciones, calcular el promedio y decir si aprobó (promedio >= 7) o reprobó.
+Pedir 2 calificaciones, calcular el promedio y decir si aprobó (promedio >= 6) o reprobó.
 
-### Solución:
+
+## Ejemplo de salida:
+
+"Ingresa la primera nota:"
+"9.5"
+"Ingresa la segunda nota:"
+"8"
+"Tu promedio es: 8.75"
+"¡Aprobaste!"
+
 
 ?
 

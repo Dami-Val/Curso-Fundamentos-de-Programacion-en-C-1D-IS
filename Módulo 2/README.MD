@@ -1,6 +1,6 @@
 # ═══════════════════════════════════════════════════════════════════════════════
 # │                          MÓDULO 2: ENTORNO DE TRABAJO                      │
-# │                        Linux/CMD y Programación en C                       │
+# │                      Terminal Linux y Programación en C                    │
 # ═══════════════════════════════════════════════════════════════════════════════
 
 <div align="center">
@@ -29,8 +29,8 @@
 > **Meta Principal:** Configurar el entorno de desarrollo y realizar la transición de PSeInt a programación real en C
 
 ### ◆ OBJETIVOS ESPECÍFICOS
-- **Dominar navegación** en línea de comandos (CMD/Linux)
-- **Instalar y configurar** el compilador GCC
+- **Dominar navegación** en línea de comandos Linux
+- **Instalar y configurar** GCC y editor Neovim
 - **Crear, compilar y ejecutar** programas en C
 - **Escribir el primer programa** en lenguaje C
 - **Manejar variables** básicas en C (int, float, char)
@@ -47,8 +47,8 @@
 
 ### ► PARTE I: ENTORNO DE TRABAJO
 ```
-├── Lección 1: Navegación CMD/Linux
-├── Lección 2: Instalación GCC
+├── Lección 1: Navegación Terminal Linux
+├── Lección 2: Instalación GCC y Neovim
 ├── Lección 3: Primer programa en C
 └── Lección 4: Compilación básica
 ```
@@ -78,16 +78,9 @@
 
 ### ◆ INTRODUCCIÓN A LA TERMINAL
 
+### ◆ INTRODUCCIÓN A LA TERMINAL
+
 La **línea de comandos** es una interfaz de texto que nos permite interactuar directamente con el sistema operativo. Es fundamental para compilar y ejecutar programas en C.
-
-<div align="center">
-
-| **WINDOWS (CMD)**               | **LINUX/UNIX**                |
-|--------------------------------|--------------------------------|
-| Command Prompt                 | Terminal/Bash                  |
-| PowerShell                     | Shell                          |
-
-</div>
 
 ### ◆ COMANDOS FUNDAMENTALES
 
@@ -95,38 +88,42 @@ La **línea de comandos** es una interfaz de texto que nos permite interactuar d
 
 <table>
 <tr>
-<th width="20%">Acción</th>
-<th width="25%">Windows (CMD)</th>
-<th width="25%">Linux</th>
-<th width="30%">Descripción</th>
+<th width="30%">Acción</th>
+<th width="35%">Linux/Unix</th>
+<th width="35%">Descripción</th>
 </tr>
 <tr>
 <td><strong>Ver directorio actual</strong></td>
-<td><code>cd</code></td>
 <td><code>pwd</code></td>
 <td>Muestra la ruta actual</td>
 </tr>
 <tr>
 <td><strong>Listar contenido</strong></td>
-<td><code>dir</code></td>
 <td><code>ls</code></td>
 <td>Lista archivos y carpetas</td>
 </tr>
 <tr>
+<td><strong>Listar con detalles</strong></td>
+<td><code>ls -la</code></td>
+<td>Lista con permisos y archivos ocultos</td>
+</tr>
+<tr>
 <td><strong>Cambiar directorio</strong></td>
-<td><code>cd carpeta</code></td>
 <td><code>cd carpeta</code></td>
 <td>Entra a una carpeta</td>
 </tr>
 <tr>
 <td><strong>Directorio padre</strong></td>
 <td><code>cd ..</code></td>
-<td><code>cd ..</code></td>
 <td>Regresa un nivel</td>
 </tr>
 <tr>
+<td><strong>Ir al home</strong></td>
+<td><code>cd ~</code></td>
+<td>Va al directorio home del usuario</td>
+</tr>
+<tr>
 <td><strong>Crear directorio</strong></td>
-<td><code>mkdir nombre</code></td>
 <td><code>mkdir nombre</code></td>
 <td>Crea nueva carpeta</td>
 </tr>
@@ -134,15 +131,6 @@ La **línea de comandos** es una interfaz de texto que nos permite interactuar d
 
 #### ▪ PRÁCTICA GUIADA: NAVEGACIÓN BÁSICA
 
-**En Windows (CMD):**
-```cmd
-C:\> cd Desktop
-C:\Users\Usuario\Desktop> mkdir MisProgramasC
-C:\Users\Usuario\Desktop> cd MisProgramasC
-C:\Users\Usuario\Desktop\MisProgramasC> dir
-```
-
-**En Linux:**
 ```bash
 $ cd ~/Desktop
 $ mkdir MisProgramasC
@@ -152,21 +140,56 @@ $ ls -la
 
 ### ◆ EJERCICIO PRÁCTICO 1: NAVEGACIÓN
 
-**Objetivo:** Familiarizarse con la navegación en terminal
+**Objetivo:** Familiarizarse con la navegación en terminal Linux
 
-**Instrucciones:**
-1. Abrir la terminal/CMD
-2. Navegar al escritorio
-3. Crear una carpeta llamada "CursoC"
-4. Entrar a la carpeta
-5. Crear dos subcarpetas: "ejercicios" y "proyectos"
-6. Listar el contenido para verificar
+**Instrucciones paso a paso:**
+
+1. **Abrir la terminal**
+   ```bash
+   # Presionar Ctrl+Alt+T o buscar "Terminal" en aplicaciones
+   ```
+
+2. **Navegar al escritorio**
+   ```bash
+   cd ~/Desktop
+   pwd  # Verificar ubicación actual
+   ```
+
+3. **Crear carpeta principal del curso**
+   ```bash
+   mkdir CursoC
+   ls -la  # Verificar que se creó la carpeta
+   ```
+
+4. **Entrar a la carpeta**
+   ```bash
+   cd CursoC
+   pwd  # Confirmar que estamos dentro
+   ```
+
+5. **Crear subcarpetas organizativas**
+   ```bash
+   mkdir ejercicios proyectos
+   ```
+
+6. **Verificar estructura creada**
+   ```bash
+   ls -la
+   tree  # Si está instalado, muestra estructura de árbol
+   ```
+
+**Resultado esperado:**
+```
+CursoC/
+├── ejercicios/
+└── proyectos/
+```
 
 ---
 
 ## ████████████████████████████████████████████████████████████████████████████████
 
-# LECCIÓN 2: INSTALACIÓN DEL COMPILADOR GCC
+# LECCIÓN 2: INSTALACIÓN DEL COMPILADOR GCC Y EDITOR NEOVIM
 
 ## ████████████████████████████████████████████████████████████████████████████████
 
@@ -178,71 +201,160 @@ $ ls -la
 ┌─────────────────────────────────────────────────────┐
 │  CÓDIGO FUENTE (.c)  →  COMPILADOR (gcc)  →  EJECUTABLE  │
 │                                                     │
-│  programa.c          →      gcc       →  programa.exe    │
+│  programa.c          →      gcc       →  programa    │
 └─────────────────────────────────────────────────────┘
 ```
 
-### ◆ INSTALACIÓN POR SISTEMA OPERATIVO
+### ◆ INSTALACIÓN DE GCC EN LINUX
 
-#### ▪ WINDOWS
-
-**Opción 1: MinGW-w64**
-1. Descargar desde: `https://www.mingw-w64.org/downloads/`
-2. Instalar siguiendo el asistente
-3. Agregar al PATH del sistema
-
-**Opción 2: TDM-GCC (Recomendado para principiantes)**
-1. Descargar desde: `https://jmeubank.github.io/tdm-gcc/`
-2. Ejecutar instalador
-3. Verificar instalación
-
-**Verificación en Windows:**
-```cmd
-gcc --version
-```
-
-#### ▪ LINUX (Ubuntu/Debian)
+#### ▪ UBUNTU/DEBIAN
 
 ```bash
 # Actualizar repositorios
 sudo apt update
 
-# Instalar GCC
-sudo apt install gcc
+# Instalar GCC y herramientas de desarrollo
+sudo apt install gcc build-essential
 
 # Verificar instalación
 gcc --version
 ```
 
-#### ▪ LINUX (CentOS/RHEL)
+#### ▪ CENTOS/RHEL/FEDORA
 
 ```bash
-# Instalar GCC
+# CentOS/RHEL
 sudo yum install gcc
 
-# O en versiones nuevas
+# Fedora (versiones nuevas)
 sudo dnf install gcc
 
 # Verificar
 gcc --version
 ```
 
-### ◆ EJERCICIO PRÁCTICO 2: VERIFICACIÓN DE GCC
+#### ▪ ARCH LINUX
+
+```bash
+# Instalar GCC
+sudo pacman -S gcc
+
+# Verificar
+gcc --version
+```
+
+### ◆ INSTALACIÓN Y CONFIGURACIÓN DE NEOVIM
+
+**Neovim** es un editor de texto moderno, potente y extensible, ideal para programar en C.
+
+#### ▪ INSTALACIÓN DE NEOVIM
+
+**Ubuntu/Debian:**
+```bash
+sudo apt update
+sudo apt install neovim
+```
+
+**CentOS/RHEL:**
+```bash
+sudo yum install neovim
+```
+
+**Fedora:**
+```bash
+sudo dnf install neovim
+```
+
+**Arch Linux:**
+```bash
+sudo pacman -S neovim
+```
+
+#### ▪ CONFIGURACIÓN BÁSICA DE NEOVIM
+
+1. **Crear directorio de configuración:**
+```bash
+mkdir -p ~/.config/nvim
+```
+
+2. **Crear archivo de configuración básico:**
+```bash
+nvim ~/.config/nvim/init.vim
+```
+
+3. **Configuración básica para programar en C:**
+```vim
+" Configuración básica para C
+set number              " Mostrar números de línea
+set tabstop=4          " Tamaño de tabulación
+set shiftwidth=4       " Indentación
+set expandtab          " Usar espacios en lugar de tabs
+set autoindent         " Auto-indentación
+set smartindent        " Indentación inteligente
+set syntax=on          " Resaltado de sintaxis
+set mouse=a            " Habilitar ratón
+
+" Configuración específica para archivos .c
+autocmd FileType c setlocal cindent
+autocmd FileType c setlocal tabstop=4
+autocmd FileType c setlocal shiftwidth=4
+```
+
+#### ▪ COMANDOS BÁSICOS DE NEOVIM
+
+<table>
+<tr>
+<th width="30%">Comando</th>
+<th width="70%">Descripción</th>
+</tr>
+<tr>
+<td><code>nvim archivo.c</code></td>
+<td>Abrir archivo para editar</td>
+</tr>
+<tr>
+<td><code>i</code></td>
+<td>Entrar en modo inserción</td>
+</tr>
+<tr>
+<td><code>Esc</code></td>
+<td>Salir del modo inserción</td>
+</tr>
+<tr>
+<td><code>:w</code></td>
+<td>Guardar archivo</td>
+</tr>
+<tr>
+<td><code>:q</code></td>
+<td>Salir de Neovim</td>
+</tr>
+<tr>
+<td><code>:wq</code></td>
+<td>Guardar y salir</td>
+</tr>
+<tr>
+<td><code>:q!</code></td>
+<td>Salir sin guardar</td>
+</tr>
+</table>
+
+### ◆ EJERCICIO PRÁCTICO 2: VERIFICACIÓN DE INSTALACIONES
 
 **Crear archivo de prueba:**
 
-**En Windows:**
-```cmd
-echo #include ^<stdio.h^> > test.c
-echo int main() { printf("GCC funciona!"); return 0; } >> test.c
-gcc test.c -o test.exe
-test.exe
-```
-
-**En Linux:**
 ```bash
-echo '#include <stdio.h>' > test.c
-echo 'int main() { printf("GCC funciona!"); return 0; }' >> test.c
+# Crear archivo de prueba con Neovim
+nvim test.c
+
+# En Neovim, presionar 'i' y escribir:
+#include <stdio.h>
+int main() { 
+    printf("¡GCC y Neovim funcionan correctamente!\n"); 
+    return 0; 
+}
+
+# Presionar Esc, luego :wq para guardar y salir
+
+# Compilar y ejecutar
 gcc test.c -o test
 ./test
 ```
@@ -347,19 +459,21 @@ PASO 3: EJECUTAR
 └─────────────────────┘
 ```
 
-#### ▪ COMANDOS ESPECÍFICOS
+#### ▪ COMANDOS DE COMPILACIÓN Y EJECUCIÓN
 
-**En Windows:**
-```cmd
-gcc hola_mundo.c -o hola_mundo.exe
-hola_mundo.exe
-```
-
-**En Linux:**
 ```bash
+# Compilar el programa
 gcc hola_mundo.c -o hola_mundo
+
+# Ejecutar el programa
 ./hola_mundo
 ```
+
+**Explicación de comandos:**
+- `gcc`: Invoca el compilador GNU C
+- `hola_mundo.c`: Archivo fuente a compilar
+- `-o hola_mundo`: Especifica el nombre del ejecutable de salida
+- `./hola_mundo`: Ejecuta el programa compilado (el ./ indica directorio actual)
 
 ### ◆ EJERCICIO PRÁCTICO 3: PRIMER PROGRAMA
 
@@ -1063,17 +1177,17 @@ int main() {
 }
 ```
 
-### ◆ INSTRUCCIONES DE COMPILACIÓN
+### ◆ INSTRUCCIONES DE COMPILACIÓN Y EJECUCIÓN
 
-**Para Windows:**
-```cmd
-gcc calculadora_final.c -o calculadora_final.exe -lm
-calculadora_final.exe
+```bash
+# Compilar con biblioteca matemática
+gcc calculadora_final.c -o calculadora_final -lm
+
+# Ejecutar el programa
+./calculadora_final
 ```
 
-**Para Linux:**
-```bash
-gcc calculadora_final.c -o calculadora_final -lm
+**Nota importante:** La bandera `-lm` enlaza la biblioteca matemática (math.h) necesaria para las funciones sqrt(), pow(), etc.
 ./calculadora_final
 ```
 
@@ -1137,8 +1251,8 @@ gcc calculadora_final.c -o calculadora_final -lm
 <td width="50%">
 
 #### ► ENTORNO DE TRABAJO
-- ✓ Navegación en CMD/Linux
-- ✓ Instalación de GCC
+- ✓ Navegación en terminal Linux
+- ✓ Instalación de GCC y Neovim
 - ✓ Compilación de programas
 - ✓ Ejecución de binarios
 
